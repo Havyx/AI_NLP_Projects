@@ -1,4 +1,5 @@
-# Web_Scraping
+# Web_Scraping  
+### Extrair LINKS
 
 ```
 import requests
@@ -12,7 +13,7 @@ for link in soup.find_all('a'):
 ```
 
 
-# Web_Crawling  
+# Selenium Driver Web Driver  
 ```
 #geckdriver = 'geckodriver'
 from selenium import webdriver
