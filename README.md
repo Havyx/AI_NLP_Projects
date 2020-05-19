@@ -1,3 +1,17 @@
+# Web_Scraping
+
+```
+import requests
+from bs4 import BeautifulSoup as bs  
+url = "http://suapagina.com"  
+page =  requests.get(url)  
+data = page.text
+soup = bs(data)  
+for link in soup.find_all('a'):  
+    print(link.get('href'))   
+```
+
+
 # Web_Crawling  
 ```
 #geckdriver = 'geckodriver'
